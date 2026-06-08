@@ -105,35 +105,41 @@
 
     <div class="section-card-box">
 
-        <h2>
-            <div class="icon-wrap bg-blue-icon">
-                <i class="fa-solid fa-share-nodes"></i>
-            </div>
-            Mạng xã hội
-        </h2>
+    <h2>
+        <div class="icon-wrap bg-blue-icon">
+            <i class="fa-solid fa-share-nodes"></i>
+        </div>
+        Mạng xã hội
+    </h2>
 
-        <p>
-            <a href="https://github.com/"
-               target="_blank">
-                GitHub
-            </a>
-        </p>
+    <div class="social-links">
 
-        <p>
-            <a href="https://linkedin.com/"
-               target="_blank">
-                LinkedIn
-            </a>
-        </p>
+        <a href="https://github.com/yourusername"
+           target="_blank"
+           class="social-icon">
+            <i class="fa-brands fa-github"></i>
+        </a>
 
-        <p>
-            <a href="https://facebook.com/"
-               target="_blank">
-                Facebook
-            </a>
-        </p>
+        <a href="https://linkedin.com/in/yourusername"
+           target="_blank"
+           class="social-icon">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="https://facebook.com/yourusername"
+           target="_blank"
+           class="social-icon">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="mailto:luongthibichloan0811@gmail.com"
+           class="social-icon">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
 
     </div>
+
+</div>
 
     <!-- Mục tiêu nghề nghiệp -->
 
@@ -163,33 +169,40 @@
 
         <h2>Gửi tin nhắn cho tôi</h2>
 
-        <form id="contactForm">
+        <form id="contactForm" method="POST">
 
-            <input
-                type="text"
-                id="name"
-                placeholder="Họ và tên"
-                required
-            >
+            <div class="form-group">
+                <input
+                    type="text"
+                    name="full_name"
+                    placeholder="Họ và tên"
+                    required>
+            </div>
 
-            <input
-                type="email"
-                id="email"
-                placeholder="Email"
-                required
-            >
+            <div class="form-group">
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required>
+            </div>
 
-            <textarea
-                id="message"
-                rows="5"
-                placeholder="Nội dung liên hệ"
-                required
-            ></textarea>
+            <div class="form-group">
+                <textarea
+                    name="message"
+                    rows="6"
+                    placeholder="Nội dung liên hệ"
+                    required></textarea>
+            </div>
 
-            <button type="submit">
+            <button
+                type="submit"
+                class="btn-submit">
                 Gửi liên hệ
             </button>
-
+            <p class="form-note">
+                Tôi sẽ phản hồi trong vòng 24 giờ.
+            </p>
         </form>
 
     </div>

@@ -521,7 +521,7 @@ header {
 ========================== */
 
 .skill-item-card{
-    padding:20px;
+    padding:17px;
     border:1px solid #e5e7eb;
     border-radius:20px;
     background:#fff;
@@ -544,13 +544,13 @@ header {
 
 .skill-header span:not(.skill-percent){
     font-size:17px;
-    font-weight:500;
+    font-weight:600;
     line-height:1.1;
 }
 
 .skill-percent{
-    font-size:20px;
-    font-weight:700;
+    font-size:17px;
+    font-weight:600;
     color:#475569;
     white-space:nowrap;
 }
